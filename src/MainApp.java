@@ -20,6 +20,8 @@ public class MainApp {
 		boolean sunny = false;
 		boolean raining = false;
 		
+		System.out.println("WHAT WILL YOU WEAR TODAY?");
+		
 		// Get input from the user
 		Scanner input = new Scanner(System.in); 
 		System.out.println("Is it Fancy Friday?");
@@ -55,14 +57,14 @@ public class MainApp {
 		//could do if(inputFancyFriday.equalsIgnoreCase("yes"))
 		if(fancyFriday){
 			if(sunny){
-				System.out.println("tea gown");
+				System.out.println("Wear a tea gown");
 			} else if(raining){
-				System.out.println("power suit");
+				System.out.println("Wear a power suit");
 			}else {
-				System.out.println("long gown");
+				System.out.println("Wear a long gown");
 			}	
 		} else {
-			System.out.println("tshirt and jeans");
+			System.out.println("Wear a t-shirt and jeans");
 		}
 		
 		}
